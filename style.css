@@ -1,0 +1,90 @@
+.rosa{
+	width: 100%;
+	min-height: 100vh;
+	display: block;	 
+	margin:0 auto;
+	max-width: 100%;
+}
+
+.abrir-msg{
+	 width: 200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    overflow: auto;
+    position: relative;
+}
+
+.carta{
+	width: 400px;
+	height: 600px;
+	object-fit: contain;
+	
+	display: block;	 
+	margin:1 auto;
+	max-width: 100%;
+	margin: 0 auto;
+  	padding: 0.5 em;
+     
+  	min-width: 150px;
+  	overflow: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.caixa{
+	
+	background-image: url('img/R.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 5em;
+    position: absolute;
+    right: 0;
+    
+    background-size: cover;
+    
+    text-align: center;
+    top: 0;
+    border-radius: 0%; 
+    border-style: solid; 
+    border-width: 5px; 
+    border-color: rgb(0, 0, 0); 
+    padding: 50px;
+
+   }
+   
+   .bg-rosa-img{
+	
+    background-image: url('img/R.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 1.4em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+
+    background-size: cover;
+    text-align: center;
+    top: 0;
+    border-radius: 0%; 
+    border-style: solid; 
+    border-width: 5px; 
+    border-color: rgb(0, 0, 0); 
+}
+
+.img-fluid{ 
+	
+	width: 400px;
+	max-width: 100%;
+	height: auto;
+}
